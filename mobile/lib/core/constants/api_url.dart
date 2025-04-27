@@ -1,8 +1,7 @@
 class ApiUrl {
-
-  static const baseURL = 'https://movie-backend-production-8413.up.railway.app/'; 
+  static const baseURL = 'http://localhost:3000/';
   static const apiV = 'api/v1/';
-  
+
   static const signup = '${apiV}auth/signup';
   static const signin = '${apiV}auth/signin';
   static const trendingMovies = '${apiV}movie/trending';
