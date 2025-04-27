@@ -1,4 +1,5 @@
 class ApiUrl {
+  // update the backend url here
   static const baseURL = 'http://localhost:3000/';
   static const apiV = 'api/v1/';
 
